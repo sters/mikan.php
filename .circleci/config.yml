@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/php:5.6-apache-jessie-node-browsers
+      - image: circleci/php:7-apache-browsers
     working_directory: ~/repo
     steps:
       - checkout
